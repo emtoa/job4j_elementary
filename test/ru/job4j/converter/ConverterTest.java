@@ -17,8 +17,8 @@ public class ConverterTest {
 
     @Test
     public void whenConvert180RblThen3Dlr() {
-        int in = 240;
-        int expected = 3;
+        int in = 180;
+        int expected = 2;
         int out = Converter.rubleToDollar (in);
         Assert.assertEquals(expected,out);
     }
