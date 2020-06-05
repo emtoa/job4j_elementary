@@ -11,6 +11,10 @@ public class CheckPrimeNumber {
                 break;
             }
         }
+
+        if (number == 2){
+            prime = true;
+        }
         return prime;
     }
 }
