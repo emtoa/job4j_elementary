@@ -15,6 +15,7 @@ public class CheckPrimeNumber {
         if (number == 2){
             prime = true;
         }
+
         return prime;
     }
 }
