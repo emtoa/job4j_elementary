@@ -5,7 +5,6 @@ public class CheckPrimeNumber {
         boolean prime = number > 1;
 
         for (int i=2;i<=number-1;i++){
-            //prime = true;
             if ((number % i) == 0) {
                 prime = false;
                 break;
