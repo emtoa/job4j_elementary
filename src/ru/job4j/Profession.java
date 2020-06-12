@@ -5,7 +5,7 @@ public class Profession {
     private String surname;
     private String education;
     private String birthday;
-
+/*
     public String getName(){
     }
 
@@ -17,4 +17,6 @@ public class Profession {
 
     public String getBirthday(){
     }
+    */
+
 }
