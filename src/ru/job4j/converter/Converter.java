@@ -30,23 +30,19 @@ public class Converter {
      * @param args
      */
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(140);                 /*Проиводим конвертацию 140 рублей в евро*/
-        int dollar  = Converter.rubleToDollar(120);            /*Проиводим конвертацию 120 рублей в доллары*/
-        System.out.println("140 rubles are " + euro + " euro.");     /*Выводим результат конвертации 140 рублей в евро*/
-        System.out.println("120 rubles are " + dollar + " dollar."); /*Выводим результат конвертации 120 рублей в доллары*/
-
-        int in = 140;       /*Входящие данные*/
-        int expected = 2;   /*Проверочные данные*/
-        int out = rubleToEuro(in);  /*Проиводим конвертацию 140 рублей в евро*/
-        boolean passed = expected == out; /*Проерка на правильность конвертации из рублей в евро, если конвертация правильно сработала то true, если нет то false*/
-
-        System.out.println("140 rubles are 2. Test result : " + passed); /*Выводим результат конвертации 140 рублей в евро true или false*/
-
-         in = 120;      /*Входящие данные*/
-         expected = 2;  /*Проверочные данные*/
-         out = rubleToDollar(in);   /*Проиводим конвертацию 120 рублей в доллары*/
-         passed = expected == out;  /*Проерка на правильность конвертации из рублей в евро, если конвертация правильно сработала то true, если нет то false*/
-
-        System.out.println("120 rubles are 2. Test result : " + passed); /*Выводим результат конвертации 120 рублей в доллары true или false*/
+        int euro = Converter.rubleToEuro(140);
+        int dollar  = Converter.rubleToDollar(120);
+        System.out.println("140 rubles are " + euro + " euro.");
+        System.out.println("120 rubles are " + dollar + " dollar.");
+        int in = 140;
+        int expected = 2;
+        int out = rubleToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
+         in = 120;
+         expected = 2;
+         out = rubleToDollar(in);
+         passed = expected == out;
+        System.out.println("120 rubles are 2. Test result : " + passed);
     }
 }
